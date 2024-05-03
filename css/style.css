@@ -1,1 +1,71 @@
 /* Your styles here */
+body{
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+}
+#background{
+    background-image: url(../images/banner.jpg);
+    width: 450px;
+    height: 500px;
+    margin: 0 auto; 
+    background-size: cover;
+    text-align: center;
+    line-height: 3vh;
+}
+h1{
+    font-size: 3vh;
+    color: rgb(0, 191, 255);
+    
+}
+h2{
+    font-size: 2vh;
+    color: rgb(0, 191, 255);
+}
+h3{
+    font-size: 1vh;
+    color: rgb(0, 191, 255);
+}
+p{
+    font-size: 1vh;
+}
+.partiamo{
+    color: white;
+    background-color: red;
+}
+#notebook{
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+}
+#ban{
+    background-color: orangered;
+    height: 20vh;
+    text-align: center;
+    line-height: 3vh;
+    color: white;
+}
+#text-1{
+    text-align: center;
+    line-height: 3vh;
+}
+#test-2{
+    text-align: center;
+    line-height: 3vh;
+}
+footer{
+    background-color: aqua;
+    color: white;
+}
+section{
+    margin: 20px;
+    padding: auto;
+    font-size: 20px;
+}
+#pc2{
+    padding: 50px;
+    border-right: 20px;
+}
