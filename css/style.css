@@ -1,5 +1,5 @@
 /* Your styles here */
-body{
+body {
     text-align: center;
     width: 450px;
     height: 500px;
@@ -16,30 +16,43 @@ header{
     margin: 0 auto; 
     background-size: cover;
     text-align: center;
-    line-height: 3vh;
+
+}
+.sempre{
+    padding: 20px;
+
+}
+#inizio{
+    padding: 20px;
+    margin-bottom: 200px;
+    
 }
 h1{
-    font-size: 3vh;
+    font-size: 2em;
     color: rgb(0, 191, 255);
     
 }
 h2{
-    font-size: 2vh;
+    font-size: 1.5em;
     color: rgb(0, 191, 255);
 }
 h3{
-    font-size: 1vh;
+    font-size: 1.17em;
     color: rgb(0, 191, 255);
 }
 p{
-    font-size: 1vh;
+    font-size: 1em;
 }
 .partiamo{
     color: white;
     background-color: red;
+    font-size: 2em;
+    
 }
-#notebook{
+.notebook >img{
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    height: 450px;
+    width: 500px;
 }
 #ban{
     background-color: orangered;
@@ -47,8 +60,9 @@ p{
     text-align: center;
     line-height: 3vh;
     color: white;
+    width: 500px;
 }
-#text-1{
+#text-1 {
     text-align: center;
     line-height: 3vh;
 }
@@ -59,13 +73,27 @@ p{
 footer{
     background-color: aqua;
     color: white;
+    width: 500px;
 }
+#contatti{
+    color: white;
+}
+
 section{
     margin: 20px;
     padding: auto;
     font-size: 20px;
 }
-#pc2{
-    padding: 50px;
-    border-right: 20px;
+#pc1 >img{
+    height: 450px;
+  width: 500px; 
 }
+#pc2 >img{
+    height: 450px;
+    width: 500px;
+}
+#ufficio>img{
+    height: 450px;
+    width: 500px;
+}
+
